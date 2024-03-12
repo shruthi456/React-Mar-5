@@ -1,10 +1,11 @@
-import Navbar from './Navbar/Navbar'
-import Movies from './Movies/Movies'
+import Product from "./StateEx/Product"
+import Navbar from "./Navbar"
 function App(){
-    return <div>
-        <Navbar/>
-    
-        <Movies>Test</Movies>
-    </div>
+    return(
+        <div>
+            <Navbar/>
+            <Product/>
+        </div>
+    )
 }
 export default App
