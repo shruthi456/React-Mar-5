@@ -1,10 +1,10 @@
-import React from 'react'
-import Movies from './Movies/Movies'
 import Navbar from './Navbar/Navbar'
+import Movies from './Movies/Movies'
 function App(){
-    return<div>
-        <Movies/>
+    return <div>
         <Navbar/>
+    
+        <Movies>Test</Movies>
     </div>
 }
 export default App
