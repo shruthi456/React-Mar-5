@@ -1,10 +1,9 @@
-import Product from "./StateEx/Product"
-import Navbar from "./Navbar"
+import Message from "./Event Binding/Message"
 function App(){
     return(
         <div>
-            <Navbar/>
-            <Product/>
+        
+            <Message/>
         </div>
     )
 }
