@@ -1,9 +1,9 @@
-import Message from "./Event Binding/Message"
+import Employee from "./ListRendering/Employee"
 function App(){
     return(
         <div>
         
-            <Message/>
+            <Employee/>
         </div>
     )
 }
